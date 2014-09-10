@@ -79,3 +79,7 @@ obj-$(CONFIG_WOBO_I5)		+= dram_wobo_i5.o
 obj-$(CONFIG_XZPAD700)	+= dram_xzpad700.o
 obj-$(CONFIG_ITEADA10)	+= dram_cubieboard.o
 obj-$(CONFIG_ITEADA20)	+= dram_cubieboard2.o
+# add by wpf at 2014.7.11 begin
+obj-$(CONFIG_ITEADAW2042)	+= dram_cubietruck.o
+obj-$(CONFIG_ITEADAW2041)	+= dram_cubieboard2.o
+# add by wpf at 2014.7.11 end
